@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 10 11:06:23 2026
+
+@author: sujit mane
+"""
+
+prices = [200,100,300,400]
+totalbill = sum(prices)
+print("Productprices:",prices)
+print("Totalbill:",totalbill)
