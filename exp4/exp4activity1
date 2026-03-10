@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 10 10:28:18 2026
+
+@author: sujit mane
+"""
+markslist = [99,85,70,59,60,75,80]
+averagemarks = sum(markslist) / len(markslist)
+toppermarks = max(markslist)
+print(f"Average Marks:{averagemarks}")
+print(f"Topper Marks:{toppermarks}")
