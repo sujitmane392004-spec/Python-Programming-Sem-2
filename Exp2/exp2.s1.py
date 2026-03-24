@@ -1,12 +1,12 @@
-# -*- Find the factorial of a number using loops -*-
+# -*- Check wheather a given year is leap year -*-
 """
-Created on Mon Mar 23 20:35:55 2026
+Created on Mon Mar 23 20:30:58 2026
 
-@author: sujit
+@author: Shahuraj Mane
 """
 
-n = int(input("Enter number:")) 
-fact = 1
-for i in range(1, n + 1): 
-    fact = fact * i
-print("Factorial:", fact)
+year = int(input("Enter year: "))
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0): 
+    print("Leap Year")
+else:
+    print("Not a Leap Year")v
