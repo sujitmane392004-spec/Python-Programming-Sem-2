@@ -1,0 +1,13 @@
+# -- Multiplication tables from 1 to 10 --
+"""
+Created on Mon Mar 23 20:26:57 2026
+
+@author: sujit
+"""
+
+for i in range(1, 11):   
+    print(f"\nMultiplication Table of {i}")
+    print("--------------------------")
+    
+    for j in range(1, 11):  
+        print(f"{i} x {j} = {i * j}")
