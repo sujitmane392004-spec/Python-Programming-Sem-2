@@ -1,14 +1,13 @@
-# count how many time appears in a review
+# Reverse a customer feedback message.
 """
-Created on Tue Mar 24 10:07:22 2026
+Created on Mon Mar  9 15:46:28 2026
 
 @author: sujit
 """
 
-review = input("Enter the review: ")
+feedback = "Quick delivery"
 
-word = input("Enter the word to count: ")
+# join() merges the characters back together
+reversed_feedback = "".join(reversed(feedback))
 
-count = review.lower().count(word.lower())
-
-print(f"The word '{word}' appears {count} times in the review.")
+print(reversed_feedback)
