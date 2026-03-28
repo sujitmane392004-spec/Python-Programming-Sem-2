@@ -1,11 +1,13 @@
-# check leap year
+# Traffic police speed checking program
 """
-Created on Tue Feb 10 09:54:27 2026
+Created on Mon Mar 16 14:45:58 2026
 
-@author: sujit mane
+@author: Aryan
 """
-year = int(input("Enter year:"))
-if (year % 400 == 0) or (year%4==0 and year % 100!= 0):
-    print("Leap Year")
+
+speed = float(input("Enter vehicle speed (km/h): "))
+
+if speed > 60:
+    print("Overspeeding! You have to pay a fine.")
 else:
-    print("Not a Leap Year")
+    print("Speed is within the limit. Drive safely.")
