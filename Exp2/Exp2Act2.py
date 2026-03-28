@@ -2,7 +2,7 @@
 """
 Created on Mon Mar 16 14:52:09 2026
 
-@author: Aryan
+@author: Sujit
 """
 
 age = int(input("Enter your age: "))
