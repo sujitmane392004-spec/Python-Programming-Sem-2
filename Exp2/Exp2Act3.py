@@ -2,7 +2,7 @@
 """
 Created on Mon Mar 16 14:46:45 2026
 
-@author: Aryan
+@author: Sujit
 """
 
 salary = float(input("Enter your monthly salary: "))
