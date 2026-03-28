@@ -1,12 +1,13 @@
-# Find factorial number
+# Movie ticket eligibility program
 """
-Created on Tue Feb 10 10:14:46 2026
+Created on Mon Mar 16 14:52:09 2026
 
-@author: sujit mane
+@author: Aryan
 """
 
-n = int(input("Enter number:"))
-fact = 1
-for i in range(1,n + 1):
-    fact = fact * i
-print("Factorial:",fact)
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are eligible to enter the movie.")
+else:
+    print("Sorry, you are not eligible to enter the movie.")
