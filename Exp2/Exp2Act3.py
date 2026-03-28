@@ -1,11 +1,13 @@
-# speed limit
+# Bank loan approval program
 """
-Created on Tue Feb 10 10:32:47 2026
+Created on Mon Mar 16 14:46:45 2026
 
-@author: sujit manee
+@author: Aryan
 """
-speed = int(input("Enter speed km/h:"))
-if speed > 60:
-    print("overspeeding!Fine issued")
+
+salary = float(input("Enter your monthly salary: "))
+
+if salary >= 25000:
+    print("Loan Approved")
 else:
-    print("with in limit")
+    print("Loan Rejected")
