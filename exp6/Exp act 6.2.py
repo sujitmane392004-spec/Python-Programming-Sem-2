@@ -7,7 +7,7 @@ from datetime import datetime
 FILE_NAME = "attendance.csv"
 
 def initialize_file():
-    """Creates the file with headers if it doesn't exist."""
+    
     if not os.path.exists(FILE_NAME):
         with open(FILE_NAME, "w", newline="") as file:
             writer = csv.writer(file)
