@@ -1,5 +1,5 @@
 # Create a student attendance file and append new records
-"""
+ """Creates the file with headers if it doesn't exist."""
 import csv
 import os
 from datetime import datetime
